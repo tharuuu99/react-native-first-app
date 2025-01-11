@@ -8,7 +8,7 @@ import Header from '@/layouts/header'
 const Products = () => {
   return (
     <View className='flex-1 w-full'>
-      <Header
+      {/* <Header
         Left={
           <Link href={"/"} asChild>
             <TouchableOpacity>
@@ -17,7 +17,7 @@ const Products = () => {
           </Link>
         }
         CenterText="Products"
-      />
+      /> */}
       <Text>products</Text>
     </View>
   )

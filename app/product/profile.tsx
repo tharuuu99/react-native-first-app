@@ -6,7 +6,7 @@ import Header from '@/layouts/header'
 const Profile = () => {
   return (
     <View className='flex-1 w-full'>
-      <Header
+      {/* <Header
         Left={
           <Link href={"/"} asChild>
             <TouchableOpacity>
@@ -15,7 +15,7 @@ const Profile = () => {
           </Link>
         }
         CenterText="Profile"
-      />
+      /> */}
       <Text>Profile</Text>
     </View>
   )

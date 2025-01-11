@@ -7,7 +7,7 @@ import React from 'react'
 const Category = () => {
   return (
     <View className="flex-1 w-full">
-      <Header
+      {/* <Header
         Left={
           <Link href={"/"} asChild>
             <TouchableOpacity>
@@ -16,7 +16,7 @@ const Category = () => {
           </Link>
         }
         CenterText="Category"
-      />
+      /> */}
 
       <Text>Category</Text>
     </View>

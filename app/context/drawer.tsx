@@ -30,7 +30,7 @@ const DrawerProvider = ({ children }: { children: React.JSX.Element }) => {
   
   return (
     <DrawerContext.Provider value={{ drawer }}>
-      <DrawerLayoutAndroid ref={drawer} renderNavigationView={Nav} drawerWidth={300} drawerPosition='left'>
+      <DrawerLayoutAndroid ref={drawer} renderNavigationView={() => <Nav drawer={drawer}/>} drawerWidth={300} drawerPosition='left'>
       {children}
       </DrawerLayoutAndroid>
     </DrawerContext.Provider>
